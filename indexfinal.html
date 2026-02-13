@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranav Nadge | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <h1>Pranav Nadge</h1>
+
+  <div class="nav__toggle" id="menu-toggle">☰</div>
+
+  <ul class="nav__menu" id="nav-menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="toggle-btn" onclick="toggleMode()">🌙</div>
+</nav>
+
+<section class="hero">
+  <img src="/Images/profilephoto1.png" alt="Profilephoto">
+  <h2>Hi, I'm <span>Pranav</span></h2>
+  <div class="typing"></div>
+</section>
+
+<section id="about">
+  <h2 class="section-title">About Me</h2>
+  <div class="glass">
+    <p>
+      I am a passionate beginner web developer focused on building clean and innovative user-friendly websites.
+      I love exploring modern tech stacks and improving my coding skills by building projects every day.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Skills</h2>
+  <div class="glass">
+    <div class="skill">
+      <p>HTML</p>
+      <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+    </div>
+    <div class="skill">
+      <p>CSS</p>
+      <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+    </div>
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+    </div>
+    <div class="skill">
+      <p>React</p>
+      <div class="progress"><div class="progress-bar" data-width="60%"></div></div>
+    </div>
+    <div class="skill">
+      <p>Python</p>
+      <div class="progress"><div class="progress-bar" data-width="80%"></div></div>
+    </div>
+    <div class="skill">
+      <p>C</p>
+      <div class="progress"><div class="progress-bar" data-width="83%"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Modern responsive portfolio with animations.</p>
+    </div>
+    <div class="project-card">
+      <h3>Weather App</h3>
+      <p>API based weather forecast app.</p>
+    </div>
+    <div class="project-card">
+      <h3>Todo App</h3>
+      <p>Task management app using local storage.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="section-title">Contact</h2>
+  <div class="glass">
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name">
+      <input type="email" id="email" placeholder="Your Email">
+      <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="form-message"></p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Pranav Nadge. All Rights Reserved.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
